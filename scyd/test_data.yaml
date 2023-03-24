@@ -1,0 +1,38 @@
+# 测试数据
+
+login: # 登陆地址
+  dev:
+    url: http://192.168.27.210:7002/scyd/service
+    work_no: 505050
+    password: OF7AdIYvN6mLL1FSEC97hQ==
+    url_s: http://192.168.27.43:8084
+
+  qa:
+    url: http://172.16.129.147:8084
+    work_no: 222222
+    password: C9QhCSdpYm2N34YoVRvTEQ==
+    url_s: http://172.16.129.147:8084
+
+Center: # 运营中台地址
+  dev:
+    url: http://192.168.152.120
+
+  qa:
+    url: http://10.103.30.76
+
+Mysql: # 数据库
+  dev:
+    host: 192.168.24.22
+    port: 15015
+    user: scyd_ydmanage
+    passwd: swhy1234
+    db: scyd_ydmanage
+    charset: utf8
+
+  qa:
+    host: 192.168.130.42
+    port: 15005
+    user: scyd_ydmanage
+    passwd: swhy1234
+    db: scyd_ydmanage
+    charset: utf8
